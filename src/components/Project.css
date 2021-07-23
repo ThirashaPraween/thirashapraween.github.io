@@ -1,0 +1,32 @@
+.content-box-project{
+    width: 700px;
+    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    box-shadow: 0 3px 5px #dcdcdc;
+    margin: 20px 10px 10px 10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 10px;
+}
+
+.project img{
+    height: 130px;
+}
+
+.project .project-details h3{
+    color: #484848;
+}
+
+.project .project-details p{
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.project .project-details span{
+    color: #999;
+    font-size: 11px;
+}
