@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8eac3d72.chunk.css",
+    "main.js": "/static/js/main.abda5240.chunk.js",
+    "main.js.map": "/static/js/main.abda5240.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.96209a0e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.96209a0e.js.map",
+    "static/js/2.1f1a6d86.chunk.js": "/static/js/2.1f1a6d86.chunk.js",
+    "static/js/2.1f1a6d86.chunk.js.map": "/static/js/2.1f1a6d86.chunk.js.map",
+    "static/js/3.10d4f22d.chunk.js": "/static/js/3.10d4f22d.chunk.js",
+    "static/js/3.10d4f22d.chunk.js.map": "/static/js/3.10d4f22d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8eac3d72.chunk.css.map": "/static/css/main.8eac3d72.chunk.css.map",
+    "static/js/2.1f1a6d86.chunk.js.LICENSE.txt": "/static/js/2.1f1a6d86.chunk.js.LICENSE.txt",
+    "static/media/cover.1cdddedf.png": "/static/media/cover.1cdddedf.png",
+    "static/media/profile.c8e9766b.jpg": "/static/media/profile.c8e9766b.jpg",
+    "static/media/reargen.be2858e5.png": "/static/media/reargen.be2858e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96209a0e.js",
+    "static/js/2.1f1a6d86.chunk.js",
+    "static/css/main.8eac3d72.chunk.css",
+    "static/js/main.abda5240.chunk.js"
+  ]
+}
