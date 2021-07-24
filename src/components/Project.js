@@ -1,23 +1,27 @@
-import React from "react";
 import "../pages/Home.css";
 import "./Project.css";
-import RearGenLogo from  '../img/projects/reargen.png'
 
-export default function Projects({ title, desc, status, imglink, projectlink }) {
-
-  
-
+export default function Projects({project}) {
   return (
-    <div className={projectlink ? "content-box-project active-project" : "content-box-project"} style={{cursor: projectlink ? "pointer" : "auto"}} onClick={() => projectlink ? window.open(projectlink, '_blank') : null}>
+    <div
+      className={
+        project.projectlink
+          ? "content-box-project active-project"
+          : "content-box-project"
+      }
+      style={{ cursor: project.projectlink ? "pointer" : "auto" }}
+      onClick={() =>
+        project.projectlink ? window.open(project.projectlink, "_blank") : null
+      }
+    >
       <div className="project">
-        <img src={imglink} alt="project-image" />
+        <img src={project.imglink} alt="project-image" />
         <div className="project-details">
-          <h3>{title}</h3>
-          <p>{desc}</p>
-          <span>{status}</span>
+          <h3>{project.title}</h3>
+          <p>{project.desc}</p>
+          <span>{project.status}</span>
         </div>
       </div>
-      
     </div>
   );
 }
