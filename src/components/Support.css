@@ -1,0 +1,45 @@
+.content-box-support{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid #FFDD00;
+    box-shadow: 0 3px 70px #FFDD00;
+    margin: 20px 10px 10px 10px;
+}
+
+.content-box-support:hover{
+    filter: grayscale(0%);
+}
+
+.support{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 0px 10px;
+}
+
+.support img{
+    height: 85px;
+    object-fit: contain;
+    max-width: 85px;
+    border-radius: 10px;
+}
+
+.support .support-details{
+    margin-left: 15px;
+}
+
+.support .support-details h3{
+    color: #484848;
+    /* margin-top: -0.1px; */
+}
+
+.support .support-details p{
+    color: #8a8a8a;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.support .support-details span{
+    color: #999;
+    font-size: 11px;
+}

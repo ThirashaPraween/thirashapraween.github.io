@@ -1,9 +1,13 @@
 .content-box-project{
-    width: 700px;
+    transition: box-shadow 0.3s ease-in-out;
     border-radius: 10px;
     border: 2px solid #dcdcdc;
     box-shadow: 0 3px 5px #dcdcdc;
     margin: 20px 10px 10px 10px;
+}
+
+.active-project:hover{
+    box-shadow: 0 3px 20px #dcdcdc;
 }
 
 .project{
@@ -14,6 +18,13 @@
 
 .project img{
     height: 130px;
+    object-fit: contain;
+    max-width: 130px;
+    border-radius: 10px;
+}
+
+.project .project-details{
+    margin-left: 5px;
 }
 
 .project .project-details h3{

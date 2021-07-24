@@ -3,29 +3,25 @@
     font-family: 'Varela Round', sans-serif;
 }
 .flow-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .content-box{
-    width: 700px;
     border-radius: 10px;
-    border: 2px solid #dcdcdc;
     box-shadow: 0 3px 5px #dcdcdc;
     margin: 20px 10px 10px 10px;
+    overflow: hidden;
 }
 .content-box .image-box{
+    width: calc(100% + 28px);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    margin: -14px;
     overflow: hidden;
 }
 .content-box .cover-img{
     width: 100%;
-    vertical-align: middle;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
 .content-box .profile-img{
@@ -61,13 +57,19 @@
 }
 
 .social{
-    display: flex;
-    justify-content: flex-start;
-    margin: -50px auto 0px 200px;
+    margin: -50px auto 0px 190px;
     border: 5px solid #fff;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.social a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .social img{
@@ -98,6 +100,7 @@
     font-size: 11px;
     color: #8a8a8a;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .sign-img{
@@ -112,5 +115,27 @@
     margin-bottom: 15px;
     font-weight: bold;
     margin-left: 20px;
-    width: 700px;
+}
+
+.load-more{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: #8a8a8a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-arrow-down{
+    transition: all 0.5s ease-out;
+}
+
+.fa-arrow-down:hover{
+    transform: rotate(360deg);
+}
+
+.no-decorations{
+    text-decoration: none;
+    font-size: 13px;
+    color: #8a8a8a;
 }

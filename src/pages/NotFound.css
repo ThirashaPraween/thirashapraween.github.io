@@ -1,0 +1,14 @@
+.center-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dev-img{
+    height: 120px;
+    object-fit: contain;
+    border-radius: 15px;
+}
