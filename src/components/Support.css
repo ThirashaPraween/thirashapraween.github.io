@@ -1,11 +1,9 @@
 .content-box-support{
     filter: grayscale(100%);
-    transition: filter 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-radius: 10px;
-    border: 2px solid #FFDD00;
-    box-shadow: 0 3px 70px #FFDD00;
     margin: 20px 10px 10px 10px;
-}
+}   
 
 .content-box-support:hover{
     filter: grayscale(0%);
