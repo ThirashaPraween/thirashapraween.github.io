@@ -20,6 +20,7 @@ export default function Projects({project}) {
           <h3>{project.title}</h3>
           <p>{project.desc}</p>
           <span>{project.status}</span>
+          <p className="year">{project.date}</p>
         </div>
       </div>
     </div>

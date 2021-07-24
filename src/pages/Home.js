@@ -11,25 +11,48 @@ export default function Home() {
   const date = new Date().getFullYear();
 
   const [projects, setProjects] = useState([]);
+  const [supports, setSupports] = useState([]);
+  const [latestProjectName, setLatestProjectName] = useState('')
+  const [latestProjectLink, setLatestProjectLink] = useState('')
 
   const getProjects = async () => {
     await fetch(
-      "https://raw.githubusercontent.com/ThirashaPraween/thirashapraween.github.io/main/src/data/projects.json",
+      "./data/projects.json",
       {
         headers: {
           "Content-Type": "application/json",
-          Accept: "application/json",
+          "Accept": "application/json",
         },
       }
     )
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
+        setLatestProjectName(data.slice(0).reverse()[0].title.split(" ")[0])
+        setLatestProjectLink(data.slice(0).reverse()[0].projectlink)
+      });
+  };
+
+  const getSupports = async () => {
+    await fetch(
+      "./data/supports.json",
+      {
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        setSupports(data);
       });
   };
 
   useEffect(() => {
     getProjects();
+    
+    getSupports();
   }, []);
 
   return (
@@ -84,7 +107,7 @@ export default function Home() {
           <p>
             Currently, I'm working as a freelance developer. And I'm writing my
             own software tools and scripts from recent like{" "}
-            <a href="https://github.com/ThirashaPraween/RearGen">RearGen</a>.
+            <a href={latestProjectLink}>{latestProjectName}</a>.
             I'm also doing AI ML programming.
           </p>
           <p>
@@ -99,7 +122,7 @@ export default function Home() {
 
       <p className="my-proj">Recent Projects</p>
 
-      {projects.map((project, index) => (
+      {projects.slice(0).reverse().slice(0,2).map((project, index) => (
         <Project project={project} key={index} />
       ))}
 
@@ -109,7 +132,10 @@ export default function Home() {
       </p>
 
       <p className="my-proj">Become a Supporter</p>
-      <Support title="Buy me a coffee" desc="If you like what I do and you want to support these projects and future projects, please consider buying me a Coffee to support!" imglink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY9Iv9fWFShIajbXxO4jHtRyvK9HPiVpPtK0b1XjR_SRIbhM2JeJmuNeCHQEExnVh890Q&usqp=CAU" redirect="https://www.buymeacoffee.com/thirashapraween" />
+     
+      {supports.slice(0).reverse().map((sup, index) => (
+        <Support support={sup} key={index} />
+      ))}
       <p className="copyr">Copyright © {date} Thirasha Praween</p>
     </div>
   );
