@@ -1,5 +1,11 @@
 [
     {
+        "title": "Support me on patreon",
+        "desc": "If you like what I do and you want to support these projects and future projects, please consider donating me!",
+        "imglink": "https://cdn.iconscout.com/icon/free/png-256/patreon-2296036-1911995.png",
+        "redirect": "https://www.patreon.com/thirasha"
+    },
+    {
         "title": "Buy me a coffee",
         "desc": "If you like what I do and you want to support these projects and future projects, please consider buying me a Coffee to support!",
         "imglink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY9Iv9fWFShIajbXxO4jHtRyvK9HPiVpPtK0b1XjR_SRIbhM2JeJmuNeCHQEExnVh890Q&usqp=CAU",
