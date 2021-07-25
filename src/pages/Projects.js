@@ -56,7 +56,7 @@ export default function Projects() {
           type="text"
           onChange={(e) => setSearchText(e.target.value)}
           value={searchText}
-          placeholder="Search projects..."
+          placeholder="Search project..."
         />
       </div>
       {projects
