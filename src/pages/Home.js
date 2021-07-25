@@ -108,8 +108,9 @@ export default function Home() {
             Currently, I'm working as a freelance developer. And I'm writing my
             own software tools and scripts from recent like{" "}
             <a href={latestProjectLink}>{latestProjectName}</a>.
-            I'm also doing AI ML programming.
+            I'm also doing AI ML programming and tools developing.
           </p>
+          <p>Furthermore, I'm a writer on Medium and Dev.to for Better Programming, The Startup, and other publications, and planned my fair share of web and mobile platform developments, as well as helped implement them.</p>
           <p>
             If you like what I do, please consider buying me a{" "}
             <a href="https://www.buymeacoffee.com/thirashapraween">Coffee</a> to
