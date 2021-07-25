@@ -110,7 +110,7 @@ export default function Home() {
             <a href={latestProjectLink}>{latestProjectName}</a>.
             I'm also doing AI ML programming and tools developing.
           </p>
-          <p>Furthermore, I'm a writer on Medium and Dev.to for better programming, The Startup, and other publications, and planned my fair share of web and mobile platform developments, as well as helped implement them.</p>
+          <p>Furthermore, I'm a writer on Medium and Dev.to for better programming, The start-up, and other publications, and planned my fair share of web and mobile platform developments, as well as helped implement them.</p>
           <p>
             If you like what I do, please consider buying me a{" "}
             <a href="https://www.buymeacoffee.com/thirashapraween">Coffee</a> to
