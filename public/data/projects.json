@@ -1,5 +1,4 @@
 [
-
   {
     "title": "React Native Web App Dev",
     "desc": "Fast web android app generate with RWAD terminal. Written in python and NodeJS. also have React Native backend.",
@@ -24,7 +23,6 @@
     "projectlink": "https://rolarbot.herokuapp.com",
     "date": "2021 July"
   },
-
   {
     "title": "RearGen Modular",
     "desc": "Native based fast android app development framework with modern features and library support.",
