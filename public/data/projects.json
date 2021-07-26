@@ -17,7 +17,7 @@
   },
   {
     "title": "RolarBot",
-    "desc": "RolarBot is an AI natural language processing (NLP) tool that I have developed with TensorFlowJS, BERT, and React.",
+    "desc": "RolarBot is an AI natural language processing (NLP) tool developed with TensorFlowJS, BERT, React, and Android mobile app.",
     "status": "Free",
     "imglink": "https://rolarbot.herokuapp.com/static/media/Rolarbot-trans.5109d421.png",
     "projectlink": "https://rolarbot.herokuapp.com",

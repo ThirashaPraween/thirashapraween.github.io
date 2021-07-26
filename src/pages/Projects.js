@@ -49,7 +49,7 @@ export default function Projects() {
         <Link to="/" className="back-to-home">
           <i className="fa fa-chevron-left" aria-hidden="true"></i>
         </Link>{" "}
-        Latest Projects
+        Recent Projects
       </p>
       <div className="search-box">
         <input

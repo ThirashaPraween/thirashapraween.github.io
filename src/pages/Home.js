@@ -121,7 +121,7 @@ export default function Home() {
         </div>
       </div>
 
-      <p className="my-proj">Recent Projects</p>
+      <p className="my-proj">Latest Projects</p>
 
       {projects.slice(0).reverse().slice(0,2).map((project, index) => (
         <Project project={project} key={index} />
