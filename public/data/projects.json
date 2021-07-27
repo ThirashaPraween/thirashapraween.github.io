@@ -16,6 +16,14 @@
     "date": "2021 April"
   },
   {
+    "title": "RearGen Modular",
+    "desc": "Native based fast android app development framework with modern features and library support.",
+    "status": "Free & Premium",
+    "imglink": "https://camo.githubusercontent.com/db5aaeae10659aca3e755f54221ff3d93ea2f07da06755fe155ef99a77895a2f/68747470733a2f2f692e696d6775722e636f6d2f71387063364f712e706e67",
+    "projectlink": "https://github.com/ThirashaPraween/RearGen",
+    "date": "2021 July"
+  },
+  {
     "title": "RolarBot",
     "desc": "RolarBot is an AI natural language processing (NLP) tool developed with TensorFlowJS, BERT, React, and Android mobile app.",
     "status": "Free",
@@ -24,11 +32,11 @@
     "date": "2021 July"
   },
   {
-    "title": "RearGen Modular",
-    "desc": "Native based fast android app development framework with modern features and library support.",
-    "status": "Free & Premium",
-    "imglink": "https://camo.githubusercontent.com/db5aaeae10659aca3e755f54221ff3d93ea2f07da06755fe155ef99a77895a2f/68747470733a2f2f692e696d6775722e636f6d2f71387063364f712e706e67",
-    "projectlink": "https://github.com/ThirashaPraween/RearGen",
+    "title": "fornyKit - RearGen Material Kit",
+    "desc": "fornyKit is also known as RearGen Material Kit. fornyKit library handles html elements as android responsive components.",
+    "status": "Free & Open-Source",
+    "imglink": "https://i.imgur.com/UWt7h5U.png",
+    "projectlink": "https://github.com/ThirashaPraween/fornyKit",
     "date": "2021 July"
   }
 ]
