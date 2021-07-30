@@ -1,6 +1,8 @@
 import "../pages/Home.css";
 import "./Project.css";
 
+
+
 export default function Projects({project}) {
   return (
     <div

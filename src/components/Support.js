@@ -9,7 +9,7 @@ export default function Support({support}) {
   return (
     <div
       className="content-box-support"
-      style={{ cursor: "pointer", boxShadow: hoverState ? "0 3px 70px " + support.color : "0 3px 70px #FFDD00", border: hoverState ? "2px solid " + support.color : "2px solid #FFDD00" }}
+      style={{ cursor: "pointer", boxShadow: hoverState ? "0 3px 70px " + support.color : "0 3px 70px #FFDD00", border: hoverState ? "2px solid " + support.color : "2px solid #FFDD00", filter: hoverState? "grayscale(0%)" : "grayscale(100%)" }}
       onClick={() => window.open(support.redirect, '_blank')}
       onMouseEnter={() => setHoverState(true)}
       onMouseLeave={() => setHoverState(false)}
