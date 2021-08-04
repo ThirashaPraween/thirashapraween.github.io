@@ -24,6 +24,14 @@
     "date": "2021 July"
   },
   {
+    "title": "fornyKit - RearGen Material Kit",
+    "desc": "fornyKit is also known as RearGen Material Kit. fornyKit library handles html elements as android responsive components.",
+    "status": "Free & Open-Source",
+    "imglink": "https://i.imgur.com/UWt7h5U.png",
+    "projectlink": "https://github.com/ThirashaPraween/fornyKit",
+    "date": "2021 July"
+  },
+  {
     "title": "RolarBot",
     "desc": "RolarBot is an AI natural language processing (NLP) tool developed with TensorFlowJS, BERT, React, and Android Java.",
     "status": "Free",
@@ -32,11 +40,11 @@
     "date": "2021 July"
   },
   {
-    "title": "fornyKit - RearGen Material Kit",
-    "desc": "fornyKit is also known as RearGen Material Kit. fornyKit library handles html elements as android responsive components.",
+    "title": "Mug-Fetcher",
+    "desc": "React API fetch data without asynchronous or hooks. You can easily handle fetch requests with less code lines.",
     "status": "Free & Open-Source",
-    "imglink": "https://i.imgur.com/UWt7h5U.png",
-    "projectlink": "https://github.com/ThirashaPraween/fornyKit",
-    "date": "2021 July"
+    "imglink": "https://i.imgur.com/ouPNaeH.png",
+    "projectlink": "https://www.npmjs.com/package/@thira/react-mugfetcher",
+    "date": "2021 August"
   }
 ]
