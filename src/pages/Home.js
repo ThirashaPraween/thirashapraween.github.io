@@ -123,7 +123,7 @@ export default function Home() {
 
       <p className="my-proj">Latest Projects</p>
 
-      {projects.slice(0).reverse().slice(0,2).map((project, index) => (
+      {projects.slice(0).reverse().slice(0,3).map((project, index) => (
         <Project project={project} key={index} />
       ))}
 
