@@ -3,6 +3,8 @@ import "./Home.css";
 import "./Projects.css";
 import Project from "../components/Project";
 import { Link } from "react-router-dom";
+// eslint-disable-next-line
+import FlipMove from "react-flip-move";
 
 export default function Projects() {
   const date = new Date().getFullYear();
@@ -37,8 +39,6 @@ export default function Projects() {
           projName.desc.toLowerCase().includes(searchText.toLowerCase()) ||
           projName.status.toLowerCase().includes(searchText.toLowerCase()) ||
           projName.date.toLowerCase().includes(searchText.toLowerCase())
-
-
       )
     );
   }, [searchText]);
@@ -59,12 +59,18 @@ export default function Projects() {
           placeholder="Search project..."
         />
       </div>
-      {projects
-        .slice(0)
-        .reverse()
-        .map((project, index) => (
-          <Project project={project} key={index} />
-        ))}
+      <ul>
+        <FlipMove>
+          {projects
+            .slice(0)
+            .reverse()
+            .map((project, index) => (
+              <li key={index} >
+                <Project project={project} />
+              </li>
+            ))}
+        </FlipMove>
+      </ul>
 
       <p className="more-proj-text">More projects on my Linkedin and Github</p>
       <p className="copyr">Copyright © {date} Thirasha Praween</p>

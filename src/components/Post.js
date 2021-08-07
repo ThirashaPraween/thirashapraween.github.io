@@ -4,6 +4,9 @@ import "./Post.css";
 
 
 export default function Post({post}) {
+
+  const rgPattern = /(<([^>]+)>)/ig;
+
   return (
     <div
       className={
@@ -21,7 +24,7 @@ export default function Post({post}) {
         <div className="post-details">
           <h3>{post.title}</h3>
           <p className="year">{post.pubDate.slice(0, -9)}</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus cum ex quo, iste deserunt ut illo sint at. Numquam et fugit velit necessitatibus placeat quae quos id beatae veritatis quasi!</p>
+          <p className="post-desc">{post.description.replace(rgPattern, '').substring(0, 240)}...</p>
           <span>{post.categories.map((cat, index) => (
               <div key={index}>#{cat} </div>
           ))}</span>
