@@ -1,13 +1,15 @@
 .content-box-project{
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     border-radius: 10px;
-    border: 2px solid #dcdcdc;
-    box-shadow: 0 3px 5px #dcdcdc;
     margin: 20px 10px 10px 10px;
+    background: #ffffff;
+    box-shadow:  20px 20px 61px #d2d2d2,
+             -20px -20px 61px #ffffff;
 }
 
 .active-project:hover{
-    box-shadow: 0 3px 20px #dcdcdc;
+    box-shadow:  20px 20px 61px #9e9e9e,
+             -20px -20px 61px #ffffff;
 }
 
 .project{

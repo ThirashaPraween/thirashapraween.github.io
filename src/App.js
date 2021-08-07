@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import NotFound from './pages/NotFound'
 import Projects from './pages/Projects'
 import Supports from "./pages/Supports";
+import Posts from "./pages/Posts";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/supports" component={Supports} />
+        <Route path="/posts" component={Posts} />
         <Route component={NotFound} />
       </Switch>
     </Router>

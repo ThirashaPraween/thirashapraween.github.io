@@ -120,6 +120,9 @@ export default function Home() {
           <p>Thank you for supporting!</p>
         </div>
       </div>
+      <p className="load-more">
+        <Link className="no-decorations" to="/posts"><i className="fas fa-arrow-down"></i> load recent blog posts</Link>
+      </p>
 
       <p className="my-proj">Latest Projects</p>
 
