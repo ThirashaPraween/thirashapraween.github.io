@@ -78,6 +78,12 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/thirasha-praween/">
             <img src="https://i.imgur.com/QsRl9sn.png" alt="linkedin" />
           </a>
+          <a href="mailto:contact@thirashapw.com">
+            <img
+              src="https://iconarchive.com/download/i98301/dakirby309/simply-styled/Gmail.ico"
+              alt="email"
+            />
+          </a>
           <a href="https://twitter.com/ThirashaPw">
             <img
               src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
@@ -93,6 +99,7 @@ export default function Home() {
               alt="discord"
             />
           </a>
+         
         </div>
         <div className="para-box">
           <p className="my-name">Hello, I'm Thirasha</p>
