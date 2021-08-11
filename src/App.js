@@ -7,14 +7,16 @@ import Supports from "./pages/Supports";
 import Posts from "./pages/Posts";
 
 function App() {
+  window.location.href = 'https://thirashapw.com'
   return (
+    
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/supports" component={Supports} />
         <Route path="/posts" component={Posts} />
-        <Route component={NotFound} />
+        <Route component={NotFound} /> */}
       </Switch>
     </Router>
   );
