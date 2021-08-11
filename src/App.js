@@ -7,7 +7,7 @@ import Supports from "./pages/Supports";
 import Posts from "./pages/Posts";
 
 function App() {
-  window.location.href = 'https://thirashapw.com'
+ 
   return (
     
     <Router>
