@@ -104,18 +104,13 @@ export default function Home() {
         <div className="para-box">
           <p className="my-name">Hello, I'm Thirasha</p>
           <p>
-            I'm full-stack dev and hobby mobile, web and AI developer. I'm
-            currently in the last year of my university and I have a lot more
-            time to find out how to raise awareness and to assist end this virus
-            in the best way I can due to the current scenario we're all in.So I
-            started working on small projects that would help people either see
-            what's going on or stay updated.
+          I'm full-stack dev and hobby mobile, web, and AI developer. I'm currently working on few personal projects and looked into many other things. I love being able to turn ideas into reality and, I keep doing so for a long time. So I started working on projects that would help people either see what's going on or stay updated.
           </p>
           <p>
-            Currently, I'm working as a freelance developer. And I'm writing my
+            At present, I'm working as a freelance developer. And I'm writing my
             own software tools and scripts from recent like{" "}
             <a href={latestProjectLink}>{latestProjectName}</a>.
-            I'm also doing AI ML programming and tools developing.
+            I'm also doing AI ML and tools developments.
           </p>
           <p>Furthermore, I'm a writer on <a href="https://medium.com/@thirashapraween">Medium</a> and <a href="https://dev.to/thirashapraween">Dev.to</a> for better programming, The start-up, and other publications, and planned my fair share of web and mobile platform developments, as well as helped implement them.</p>
           <p>
